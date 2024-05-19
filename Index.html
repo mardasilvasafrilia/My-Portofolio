@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px 0;
+        }
+        section {
+            background: #fff;
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            margin-top: 0;
+            font-size: 2em;
+            font-weight: 700;
+            border-bottom: 2px solid #ffd700;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        .profile div {
+            max-width: 600px;
+        }
+        .projects .project {
+            margin: 20px 0;
+        }
+        .projects .project h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+        .projects .project p {
+            line-height: 1.6;
+        }
+        .projects .project .document-link {
+            margin-top: 10px;
+            display: block;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .projects .project .document-link:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <div class="profile">
+                <img src="img/profilsilva.jpg" alt="Foto Profil">
+                <div>
+                    <p>Halo, saya Mardasilva Safrilia, saya merupakan lulusan dari SMK Taruna Bangsa Kota Bekasi di jurusan Rekayasa Perangkat Lunak. Saya memulai mempelajari Pemrograman Dasar dengan bahasa pemrograman HTML dan CSS pada tahun 2022. Lalu pada Agustus 2023 - Januari 2024 saya mulai mempelajari bahasa pemrograman PHP dengan framework Laravel.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="projects">
+            <h2>Proyek</h2>
+            <div class="project">
+                <h3>Proyek Web Sekolah</h3>
+                <p>Proyek web Basic</p>
+                <a class="document-link" href="Latihan CSS mrdslv/index.html">Tampilkan Web</a>
+            </div>
+            <div class="project">
+                <h3>Blogger Web</h3>
+                <p>Proyek yang saya buat adalah Blogger yang berisi Tips and Trick Cara Menjadi Programmer Handal</p>
+                <a class="document-link" href="CSS/home_.html">Tampilan Web</a>
+            </div>
+            <div class="project">
+                <h3>Web Sistem Infomasi Akademik</h3>
+                <p>Web sistem informasi akademik dengan bahasa pemrograman PHP native</p>
+                <a class="document-link" href="siakad/">Download Dokumen</a>
+            </div>
+            <div class="project">
+                <h3>Web Resto</h3>
+                <p>Sebuah web restaurant dengan bahasa pemrograman PHP native</p>
+                <a class="document-link" href="mardasilva_resto/">Download Dokumen</a>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Kontak</h2>
+            <p>Anda dapat menghubungi saya melalui email: <a href="mailto:email@contoh.com">email@contoh.com</a> atau telepon: 123-456-7890.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Mardasilva Safrilia. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
